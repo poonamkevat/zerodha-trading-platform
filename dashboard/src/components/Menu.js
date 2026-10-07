@@ -10,7 +10,7 @@ const Menu = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3002/me", {
+    fetch("https://zerodha-trading-platform-e1ns.onrender.com/me", {
       credentials: "include",
     })
       .then((res) => res.json())

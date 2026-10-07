@@ -18,7 +18,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3002/signup", {
+      const response = await fetch("https://zerodha-trading-platform-e1ns.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

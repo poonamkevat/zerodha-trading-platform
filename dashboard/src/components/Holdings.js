@@ -9,7 +9,7 @@
 //   // const [allHoldings, setAllHoldings] = useState([]);
 
 //   // useEffect(() => {
-//   //   axios.get("http://localhost:3002/allHoldings").then((res) => {
+//   //   axios.get("https://zerodha-trading-platform-e1ns.onrender.com/allHoldings").then((res) => {
 //   //     // console.log(res.data);
 //   //     setAllHoldings(res.data);
 //   //   });
@@ -126,7 +126,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
+    axios.get("https://zerodha-trading-platform-e1ns.onrender.com/allHoldings").then((res) => {
       setAllHoldings(res.data);
     });
   }, []);
