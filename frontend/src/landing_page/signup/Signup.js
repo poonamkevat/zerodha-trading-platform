@@ -34,7 +34,7 @@ function Signup() {
         console.log(data);
 
         // Redirect to dashboard
-        window.location.href = "http://localhost:3001";
+       window.location.href = "https://zerodha-trading-dashboard.onrender.com";
       } else {
         alert(data.message || "Signup failed");
       }
